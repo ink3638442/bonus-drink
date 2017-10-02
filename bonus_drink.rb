@@ -1,5 +1,6 @@
 class BonusDrink
   def self.total_count_for(amount)
+    # ボーナスボトルを算出、トータル本数に合算
     bonus_bottle = amount / 3
     total_bottle = amount + bonus_bottle
 
